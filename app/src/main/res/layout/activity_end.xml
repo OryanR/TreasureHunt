@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/map"
+    tools:context="testing.gps_location.EndActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Good job!"
+            android:textSize="45sp"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="253dp" />
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="154dp"
+            android:layout_height="153dp"
+            android:background="@drawable/back"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="415dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="testing.gps_location.PlayActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/map"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="98dp">
+
+        <ImageButton
+            android:id="@+id/tr"
+            android:layout_width="337dp"
+            android:layout_height="201dp"
+            android:background="@drawable/title" />
+
+        <ImageButton
+            android:id="@+id/playButton"
+            android:layout_width="250dp"
+            android:layout_height="201dp"
+            android:background="@drawable/play" />
+
+        <ImageButton
+            android:id="@+id/treasure"
+            android:layout_width="136dp"
+            android:layout_height="132dp"
+            android:layout_gravity="right"
+            android:background="@drawable/logo" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
